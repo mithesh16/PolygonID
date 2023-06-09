@@ -1,0 +1,92 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "$metadata": {
+      "uris": {
+        "jsonLdContext": "https://raw.githubusercontent.com/mithesh16/SmartWallet/main/polygon.json?token=GHSAT0AAAAAAB63LHKYFVNHS7LKMUF5GB6EZEC5I4Q",
+        "jsonSchema": "https://raw.githubusercontent.com/mithesh16/SmartWallet/main/polygon.json?token=GHSAT0AAAAAAB63LHKYFVNHS7LKMUF5GB6EZEC5I4Q"
+      }
+    },
+    "required": [
+      "id",
+      "type",
+      "issuanceDate",
+      "credentialSubject",
+      "issuer"
+    ],
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "type": {
+        "type": [
+          "string",
+          "array"
+        ],
+        "items": {
+          "type": "string"
+        }
+      },
+      "issuer": {
+        "type": [
+          "string",
+          "object"
+        ],
+        "format": "uri",
+        "required": [
+          "id"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      "issuanceDate": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "expirationDate": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "merklizationRootPosition": {
+        "type": "string",
+        "enum": [
+          "none",
+          "index",
+          "value"
+        ]
+      },
+      "revNonce": {
+        "type": "integer"
+      },
+      "version": {
+        "type": "integer"
+      },
+      "updatable": {
+        "type": "boolean"
+      },
+      "credentialSubject": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "age"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "age": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  }
+  
