@@ -6,7 +6,7 @@
       "id": "https://raw.githubusercontent.com/mithesh16/PolygonID/main/schema-v1.json",
       "type": "Basic Credential",
       "BasicCredential": {
-        "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v3.json-ld#BasicCredential",
+        "@id": "https://raw.githubusercontent.com/mithesh16/PolygonID/main/bc-v1-ld.json-ld#BasicCredential",
         "@context": {
           "@version": 1.1,
           "@protected": true,
