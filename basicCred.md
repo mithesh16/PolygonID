@@ -15,6 +15,13 @@ age represents person age as integer value
 ```
   "age": 20
 ```
+# id
+
+id represents user DID as string value
+
+```
+  "id": "did:iden3:polygon:mumbai:x37WJ2MFZu1BZ6XwNQcVArmwtjSc1f79RYR9uxoUa"
+```
 # verified
 
 verified means that identity passed KYC verification procedure (boolean)
