@@ -5,14 +5,14 @@
       "@protected": true,
       "id": "https://raw.githubusercontent.com/mithesh16/PolygonID/main/schema-v1.json",
       "type": "Basic Credential",
-      "KYCAgeCredential": {
-        "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v3.json-ld#KYCAgeCredential",
+      "BasicCredential": {
+        "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v3.json-ld#BasicCredential",
         "@context": {
           "@version": 1.1,
           "@protected": true,
           "id": "@id",
           "type": "Basic Credential",
-          "kyc-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/kyc.md#",
+          "bc-vocab": "https://raw.githubusercontent.com/mithesh16/PolygonID/main/basicCred.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "name": {
             "@id": "bc-vocab:name",
