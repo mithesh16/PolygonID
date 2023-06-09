@@ -111,8 +111,8 @@
         "properties": {
           "id": {
             "title": "Credential Subject ID",
-            "type": "string",
-            "format": "uri"
+            "type": "string"
+            
           },
           "name": {
             "type": "string"
