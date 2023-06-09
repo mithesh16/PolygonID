@@ -21,6 +21,10 @@
           "age": {
             "@id": "bc-vocab:age",
             "@type": "xsd:integer"
+          },
+          "id": {
+            "@id": "bc-vocab:id",
+            "@type": "xsd:string"
           }
         }
       }
