@@ -3,16 +3,14 @@
     "type": "object",
     "$metadata": {
       "uris": {
-          "jsonLdContext":"https://raw.githubusercontent.com/mithesh16/PolygonID/main/bc-v1-ld.json-ld"
+          "jsonLdContext":"https://raw.githubusercontent.com/mithesh16/PolygonID/main/bc-v1.jsonld"
         "jsonSchema": "https://raw.githubusercontent.com/mithesh16/PolygonID/main/schema-v1.json"
       }
     },
     "required": [
       "id",
       "type",
-      "issuanceDate",
       "credentialSubject",
-      "issuer"
     ],
     "properties": {
       "id": {
