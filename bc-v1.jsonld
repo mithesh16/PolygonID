@@ -1,32 +1,30 @@
 {
-  "@context": [
-    {
-      "@version": 1.1,
-      "@protected": true,
-      "id": "@id",
-      "type": "@type",
-      "BasicCredential": {
-        "@id": "https://raw.githubusercontent.com/mithesh16/PolygonID/main/bc-v1.jsonld#BasicCredential",
-        "@context": {
-          "@version": 1.1,
-          "@protected": true,
-          "id": "@id",
-          "type": "Basic Credential",
-          "bc-vocab": "https://raw.githubusercontent.com/mithesh16/PolygonID/main/basicCred.md#",
-          "xsd": "http://www.w3.org/2001/XMLSchema#",
-          "name": {
-            "@id": "bc-vocab:name",
-            "@type": "xsd:string"
-          },
-          "age": {
-            "@id": "bc-vocab:age",
-            "@type": "xsd:integer"
-          },
-          "id": {
-            "@id": "bc-vocab:id",
-            "@type": "xsd:string"
+    "@context": [
+      {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "BasicCredential": {
+          "@id": "https://raw.githubusercontent.com/mithesh16/PolygonID/main/bc-v1.jsonld#BasicCredential",
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "Basic Credential",
+            "bc-vocab": "https://raw.githubusercontent.com/mithesh16/PolygonID/main/basicCred.md#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "name": {
+              "@id": "bc-vocab:name",
+              "@type": "xsd:string"
+            },
+            "age": {
+              "@id": "bc-vocab:age",
+              "@type": "xsd:integer"
+            }
           }
         }
-      }
-  ]
-}
+    }
+    ]
+  }
+  
