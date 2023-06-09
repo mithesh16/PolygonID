@@ -105,7 +105,6 @@
       "credentialSubject": {
         "type": "object",
         "required": [
-          "id",
           "name",
            "age"
         ],
