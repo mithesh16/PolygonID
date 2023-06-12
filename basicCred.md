@@ -2,10 +2,10 @@
 
 # name
 
-name represents person name as string value
+name represents person name as int value
 
 ```
-  "name": "Mithesh"
+  "name": 77105116104101115104
 ```
 
 # age
