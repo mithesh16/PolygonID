@@ -115,7 +115,7 @@
             
           },
           "name": {
-            "type": "integer"
+            "type": "biginteger"
           },
             "age":{
              "type":"integer"
