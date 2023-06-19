@@ -115,7 +115,7 @@
             
           },
           "name": {
-            "type": "long"
+            "type": "string"
           },
             "age":{
              "type":"integer"
