@@ -5,7 +5,7 @@
         "@protected": true,
         "id": "@id",
         "type": "@type",
-        "VoterID": {
+        "BasicCredential": {
            "@id": "https://raw.githubusercontent.com/mithesh16/PolygonID/main/bc-v1.jsonld#BasicCredential",
           "@context": {
             "@version": 1.1,
