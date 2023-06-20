@@ -109,11 +109,6 @@
            "age"
         ],
         "properties": {
-          "id": {
-            "title": "Credential Subject ID",
-            "type": "string"
-            
-          },
           "name": {
             "type": "string"
           },
